@@ -62,13 +62,6 @@ export function sumAndMultiplyThreeNumbers(a, b, c) { //eslint-disable-line
     return [sum1, mult1, str1, str2];
 }
 
-
-// const sumArray = [sum];
-// const multArray = multiply(a, b);
-// const str1 = `${a} and ${b} and ${thirdNumber} sum to ${sumArray + thirdNumber}.`;
-// const str2 = `The product of ${a} and ${b} and ${thirdNumber} is ${multArray * thirdNumber}.`;
-// return [sumArray, multArray, str1, str2];
-
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 // Don't forget to create a new branch for your work on the next question!
 
@@ -92,7 +85,6 @@ export function sumArrayWithThreeNumbers(sumArr) {
     function sum(accumulator, a) {
         return accumulator + a;
     }
-
     const str = `${sumArr} was passed in as an array of numbers, and ${sum1} is their sum.`;
     return [sum1, str];
 }
